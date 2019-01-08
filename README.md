@@ -19,7 +19,7 @@ int main()
         cin>>num;
         if(num>0 && num<=9)
         {
-            cout<<"11";
+            cout<<"11"<<endl;
         }
         else
         {
@@ -33,11 +33,12 @@ int main()
               temp=temp/10;
             }
           }
-          cout<<pa;
+          cout<<pa<<endl;
         }
-        
+
       tc--;
     }
 
   return 0;
 }
+
